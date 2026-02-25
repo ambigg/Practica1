@@ -7,7 +7,7 @@
 #ifndef TRANSFER_H
 #define TRANSFER_H
 
-#include "layer_interface.h"
+#include "../layer_interface.h"
 
 #define WIRE_MAX_SIZE (sizeof(ProtocolHeader) + MAX_PAYLOAD_SIZE)
 
